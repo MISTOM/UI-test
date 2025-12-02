@@ -41,7 +41,7 @@ export default function Select({ options, value, onChange, className = '', ariaL
                 type="button"
                 aria-label={ariaLabel}
                 onClick={() => setOpen((s) => !s)}
-                className="w-full bg-neutral-900 border border-neutral-700 rounded-2xl px-4 py-4 text-slate-100 flex items-center gap-3 justify-between focus:outline-none"
+                className="w-full bg-neutral-900 border border-neutral-700 rounded-3xl px-4 py-4 text-slate-100 flex items-center gap-3 justify-between focus:outline-none"
             >
                 <div className="flex items-center gap-3 truncate">
                     {selected?.img ? (
